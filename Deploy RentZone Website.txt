@@ -24,7 +24,7 @@ sudo systemctl start mysqld
 
 
 #5. download the FleetCart zip from s3 to the html derectory on the ec2 instance
-sudo aws s3 sync s3://wiz-rentzone-web-files /var/www/html
+sudo aws s3 sync s3://rentzone-app-001 /var/www/html
 
 
 #6. unzip the FleetCart zip folder
