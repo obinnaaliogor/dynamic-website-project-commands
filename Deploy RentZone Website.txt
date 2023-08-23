@@ -27,7 +27,7 @@ sudo systemctl start mysqld
 sudo aws s3 sync s3://rentzone-app-001 /var/www/html
 
 
-#6. unzip the FleetCart zip folder
+#6. unzip the Rentzone zip folder
 cd /var/www/html
 sudo unzip rentzone.zip
 
