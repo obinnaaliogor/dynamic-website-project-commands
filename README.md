@@ -115,7 +115,7 @@ sudo service httpd restart
 ```
 
 
-###MIgrate the sql script into the rds dd
+###Migrate the sql script into the rds DB.
 
 ### 9. Update .env File
 
