@@ -102,6 +102,8 @@ sudo service httpd restart
 
 ### 8. Download and Set Up Dummy Application
 
+### 8A Migrate the sql script into the rds DB. This should be done first b4 downloading the dummy web files into the /var/www/html/public dir
+
 ```
 sudo su
 sudo aws s3 sync s3://dummy-web-files-001 .
@@ -114,8 +116,6 @@ chown apache:apache -R /var/www/html
 sudo service httpd restart
 ```
 
-
-### 8A Migrate the sql script into the rds DB.
 
 ### 9. Update .env File
 
