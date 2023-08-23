@@ -114,6 +114,9 @@ chown apache:apache -R /var/www/html
 sudo service httpd restart
 ```
 
+
+###MIgrate the sql script into the rds dd
+
 ### 9. Update .env File
 
 SSH into one of the EC2 instances launched in the private-app subnet. Update the .env file in the /var/www/html directory with your Route 53 domain name (including 'https' but without the trailing '/') and update the APP_URL accordingly.
