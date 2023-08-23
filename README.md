@@ -104,7 +104,7 @@ sudo service httpd restart
 
 ```
 sudo su
-sudo aws s3 sync s3://dummy-web-files-002 /home/ec2-user
+sudo aws s3 sync s3://dummy-web-files-001 .
 sudo unzip dummy.zip
 sudo mv dummy/* /var/www/html/public
 sudo mv -f dummy/.DS_Store /var/www/html/public
